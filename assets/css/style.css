@@ -2,7 +2,17 @@ html {
 	background-image:url("http://www.marble.com/art/wp-content/uploads/img/BIANCO%20VENATO%20003BR%20DONE%20WEB.jpg");
 	font-family:#777777;
 	width:960px;
-	
+	text-decoration-style:0;
+}
+h2 {
+	color:#4aaaa5;
+	text-align:middle;
+}
+img {
+	margin:5px;
+}
+a {
+	text-decoration:none;
 }
 #intro {
 	width:100%;
@@ -32,8 +42,9 @@ width:730px;
 float:right;
 text-align:right;
 margin-top:30px;
+text-decoration:none;
 }
-a {
+.headlink {
 	color:grey;
 	text-decoration:none;
 	padding:0px 20px 0px 20px;
@@ -42,6 +53,10 @@ a {
 }
 #bordergaurd{
 	border-right-style:none;
+	text-decoration:none;
+	color:grey;
+	margin-right:20px;
+	padding-left:20px;
 }
 
 #content {
@@ -50,9 +65,53 @@ a {
 #primary {
 	float:left;
 	width:650px;
-	height:300px;
+	height:400px;
 	background-color:white;
 
+}
+#primarytitle {
+	margin-bottom:5px;
+	border-bottom-style:solid;
+	border-color:lightgrey;
+	padding-left:45%;
+	text-align:middle;
+
+}
+#primarytitle2 {
+	margin-bottom:5px;
+	border-bottom-style:solid;
+	border-color:lightgrey;
+	padding-left:40%;
+	text-align:middle;
+
+}
+#meprimary {
+	float:left;
+	width:200px;
+	height:200px;
+	border-style:solid;
+	border-color:lightgrey;
+}
+.primarytext {
+	float:left;
+	font-size:20px;
+	font-family:sans-serif;
+	padding-right:20px;
+}
+
+#primaryzero {
+	margin:0;
+	border:none;
+	padding:0;
+	color:red;
+}
+#linktitle {
+	color:#4aaaa5;
+	text-align:middle;
+	padding-right:10%;
+	padding-left:20%;
+	border-bottom-style:solid;
+	border-color:lightgrey;
 }
 
 #linkbox {
@@ -61,13 +120,24 @@ a {
 	height:200px;
 	background-color:white;
 	margin-right:0px;
+	text-align:middle;
+}
+#logohold {
+	margin-top:20%;
+	margin-left:;
+}
+#facebooklogo {
+	margin-left:25px;
 }
 #footer {
-	width:100%;
+	width:960px;
 	height:80px;
-	background-color:white;
 	display:block;
 	bottom:0;
 	position:absolute;
+	vertical-align:middle;
+	text-align:middle;
+	color:white;
+	background-color:#4aaaa5;
 
 }
